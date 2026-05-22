@@ -10,7 +10,7 @@ It also includes JavaScript knowledge-base sections with structured learning
 notes for language basics, core concepts, common data structures, and async
 JavaScript, plus browser JavaScript, Node.js JavaScript, error handling, and
 debugging basics, modern JavaScript features, patterns, best practices, and
-testing, with practical code examples and exercises.
+testing, with practical code examples, exercises, and cheatsheets.
 
 Over time, this repository may also include broader software engineering notes:
 language references, learning and review workflows, practical code examples,
@@ -44,16 +44,16 @@ The `knowledge-base/javascript` section is a structured guide for learning and
 reviewing JavaScript. It currently covers language basics, core concepts, data
 structures, async JavaScript, browser JavaScript, Node.js JavaScript, error
 handling, debugging, modern JavaScript, patterns, best practices, testing,
-practical examples, and exercises: syntax, variables, data types, operators,
-control flow, functions, scope, hoisting, closures, `this`, prototypes, classes,
-modules, strict mode, arrays, objects, maps, sets, strings, dates, JSON,
-destructuring, spread, rest syntax, the event loop, callbacks, promises,
-`async` and `await`, timers, `fetch`, async error handling, the DOM, events,
-forms, storage, browser requests, browser APIs, Node.js runtime basics, npm,
-modules, file system utilities, environment variables, npm scripts, errors,
+practical examples, exercises, and cheatsheets: syntax, variables, data types,
+operators, control flow, functions, scope, hoisting, closures, `this`,
+prototypes, classes, modules, strict mode, arrays, objects, maps, sets, strings,
+dates, JSON, destructuring, spread, rest syntax, the event loop, callbacks,
+promises, `async` and `await`, timers, `fetch`, async error handling, the DOM,
+events, forms, storage, browser requests, browser APIs, Node.js runtime basics,
+npm, modules, file system utilities, environment variables, npm scripts, errors,
 `try...catch`, debugging workflow, `console`, DevTools, ES6+ features, optional
 chaining, nullish coalescing, iterators, generators, symbols, clean code,
 immutability, pure functions, functional patterns, object-oriented patterns,
 common antipatterns, unit testing, mocking, test cases, Jest/Vitest-style
 workflows, data transformations, API clients, form validation, pagination,
-debounce, throttle, and practice tasks.
+debounce, throttle, practice tasks, and quick reference sheets.

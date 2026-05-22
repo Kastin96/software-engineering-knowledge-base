@@ -20,6 +20,7 @@ understanding, not only memorize interview answers.
 - 10\. [Testing](10_testing/README.md)
 - 11\. [Practical Examples](11_practical_examples/README.md)
 - 12\. [Exercises](12_exercises/README.md)
+- 13\. [Cheatsheets](13_cheatsheets/README.md)
 
 ## How To Use This Section
 
