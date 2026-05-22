@@ -11,6 +11,7 @@ understanding, not only memorize interview answers.
 - 01\. [Language Basics](01_language_basics/README.md)
 - 02\. [Core Concepts](02_core_concepts/README.md)
 - 03\. [Data Structures](03_data_structures/README.md)
+- 04\. [Async JavaScript](04_async_javascript/README.md)
 
 ## How To Use This Section
 
