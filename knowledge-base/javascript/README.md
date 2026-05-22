@@ -15,6 +15,7 @@ understanding, not only memorize interview answers.
 - 05\. [Browser JavaScript](05_browser_javascript/README.md)
 - 06\. [Node.js JavaScript](06_node_javascript/README.md)
 - 07\. [Error Handling and Debugging](07_error_handling_debugging/README.md)
+- 08\. [Modern JavaScript](08_modern_javascript/README.md)
 
 ## How To Use This Section
 

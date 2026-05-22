@@ -9,7 +9,7 @@ debugging, testing, Git, and common full-stack assessment topics.
 It also includes JavaScript knowledge-base sections with structured learning
 notes for language basics, core concepts, common data structures, and async
 JavaScript, plus browser JavaScript, Node.js JavaScript, error handling, and
-debugging basics.
+debugging basics, plus modern JavaScript features.
 
 Over time, this repository may also include broader software engineering notes:
 language references, learning and review workflows, practical code examples,
@@ -42,11 +42,12 @@ Agile, and full-stack assessment practice.
 The `knowledge-base/javascript` section is a structured guide for learning and
 reviewing JavaScript. It currently covers language basics, core concepts, data
 structures, async JavaScript, browser JavaScript, Node.js JavaScript, error
-handling, and debugging: syntax, variables, data types, operators, control flow,
-functions, scope, hoisting, closures, `this`, prototypes, classes, modules,
-strict mode, arrays, objects, maps, sets, strings, dates, JSON, destructuring,
-spread, rest syntax, the event loop, callbacks, promises, `async` and `await`,
-timers, `fetch`, async error handling, the DOM, events, forms, storage, browser
-requests, browser APIs, Node.js runtime basics, npm, modules, file system
-utilities, environment variables, npm scripts, errors, `try...catch`, debugging
-workflow, `console`, and DevTools.
+handling, debugging, and modern JavaScript: syntax, variables, data types,
+operators, control flow, functions, scope, hoisting, closures, `this`,
+prototypes, classes, modules, strict mode, arrays, objects, maps, sets, strings,
+dates, JSON, destructuring, spread, rest syntax, the event loop, callbacks,
+promises, `async` and `await`, timers, `fetch`, async error handling, the DOM,
+events, forms, storage, browser requests, browser APIs, Node.js runtime basics,
+npm, modules, file system utilities, environment variables, npm scripts, errors,
+`try...catch`, debugging workflow, `console`, DevTools, ES6+ features, optional
+chaining, nullish coalescing, iterators, generators, and symbols.
