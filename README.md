@@ -8,7 +8,7 @@ debugging, testing, Git, and common full-stack assessment topics.
 
 It also includes JavaScript knowledge-base sections with structured learning
 notes for language basics, core concepts, common data structures, and async
-JavaScript, plus browser JavaScript basics.
+JavaScript, plus browser and Node.js JavaScript basics.
 
 Over time, this repository may also include broader software engineering notes:
 language references, learning and review workflows, practical code examples,
@@ -40,9 +40,11 @@ Agile, and full-stack assessment practice.
 
 The `knowledge-base/javascript` section is a structured guide for learning and
 reviewing JavaScript. It currently covers language basics, core concepts, data
-structures, async JavaScript, and browser JavaScript: syntax, variables, data
-types, operators, control flow, functions, scope, hoisting, closures, `this`,
-prototypes, classes, modules, strict mode, arrays, objects, maps, sets, strings,
-dates, JSON, destructuring, spread, rest syntax, the event loop, callbacks,
-promises, `async` and `await`, timers, `fetch`, async error handling, the DOM,
-events, forms, storage, browser requests, and browser APIs.
+structures, async JavaScript, browser JavaScript, and Node.js JavaScript:
+syntax, variables, data types, operators, control flow, functions, scope,
+hoisting, closures, `this`, prototypes, classes, modules, strict mode, arrays,
+objects, maps, sets, strings, dates, JSON, destructuring, spread, rest syntax,
+the event loop, callbacks, promises, `async` and `await`, timers, `fetch`, async
+error handling, the DOM, events, forms, storage, browser requests, browser APIs,
+Node.js runtime basics, npm, modules, file system utilities, environment
+variables, and npm scripts.
