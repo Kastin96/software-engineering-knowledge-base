@@ -7,7 +7,7 @@ TypeScript, Node.js, Express.js, React, REST APIs, SQL, browser basics,
 debugging, testing, Git, and common full-stack assessment topics.
 
 It also includes JavaScript knowledge-base sections with structured learning
-notes for language basics and core concepts.
+notes for language basics, core concepts, and common data structures.
 
 Over time, this repository may also include broader software engineering notes:
 language references, learning and review workflows, practical code examples,
@@ -38,6 +38,8 @@ Agile, and full-stack assessment practice.
 - [JavaScript Learning Path](knowledge-base/javascript/README.md)
 
 The `knowledge-base/javascript` section is a structured guide for learning and
-reviewing JavaScript. It currently covers language basics and core concepts:
-syntax, variables, data types, operators, control flow, functions, scope,
-hoisting, closures, `this`, prototypes, classes, modules, and strict mode.
+reviewing JavaScript. It currently covers language basics, core concepts, and
+data structures: syntax, variables, data types, operators, control flow,
+functions, scope, hoisting, closures, `this`, prototypes, classes, modules,
+strict mode, arrays, objects, maps, sets, strings, dates, JSON, destructuring,
+spread, and rest syntax.
