@@ -19,6 +19,7 @@ understanding, not only memorize interview answers.
 - 09\. [Patterns and Best Practices](09_patterns_and_best_practices/README.md)
 - 10\. [Testing](10_testing/README.md)
 - 11\. [Practical Examples](11_practical_examples/README.md)
+- 12\. [Exercises](12_exercises/README.md)
 
 ## How To Use This Section
 
