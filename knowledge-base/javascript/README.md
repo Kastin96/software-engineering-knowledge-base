@@ -12,6 +12,7 @@ understanding, not only memorize interview answers.
 - 02\. [Core Concepts](02_core_concepts/README.md)
 - 03\. [Data Structures](03_data_structures/README.md)
 - 04\. [Async JavaScript](04_async_javascript/README.md)
+- 05\. [Browser JavaScript](05_browser_javascript/README.md)
 
 ## How To Use This Section
 
