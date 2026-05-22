@@ -18,6 +18,7 @@ understanding, not only memorize interview answers.
 - 08\. [Modern JavaScript](08_modern_javascript/README.md)
 - 09\. [Patterns and Best Practices](09_patterns_and_best_practices/README.md)
 - 10\. [Testing](10_testing/README.md)
+- 11\. [Practical Examples](11_practical_examples/README.md)
 
 ## How To Use This Section
 
