@@ -21,7 +21,7 @@ say so explicitly.
 - 02\. [OOP Core Concepts](02_oop_core_concepts/README.md)
 - 03\. [Collections and Data Structures](03_collections_and_data_structures/README.md)
 - 04\. [Exceptions and Debugging](04_exceptions_and_debugging/README.md)
-- 05\. Generics and Type System
+- 05\. [Generics and Type System](05_generics_and_type_system/README.md)
 - 06\. Functional Java
 - 07\. Concurrency
 - 08\. I/O, Files, and Serialization
