@@ -24,7 +24,7 @@ say so explicitly.
 - 05\. [Generics and Type System](05_generics_and_type_system/README.md)
 - 06\. [Functional Java](06_functional_java/README.md)
 - 07\. [Concurrency](07_concurrency/README.md)
-- 08\. I/O, Files, and Serialization
+- 08\. [I/O, Files, and Serialization](08_io_files_serialization/README.md)
 - 09\. JVM and Build Tools
 - 10\. Testing
 - 11\. Patterns and Best Practices
