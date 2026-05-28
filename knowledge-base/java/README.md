@@ -28,9 +28,9 @@ say so explicitly.
 - 09\. [JVM and Build Tools](09_jvm_build_tools/README.md)
 - 10\. [Testing](10_testing/README.md)
 - 11\. [Patterns and Best Practices](11_patterns_and_best_practices/README.md)
-- 12\. Practical Examples
-- 13\. Exercises
-- 14\. Cheatsheets
+- 12\. [Practical Examples](12_practical_examples/README.md)
+- 13\. [Exercises](13_exercises/README.md)
+- 14\. [Cheatsheets](14_cheatsheets/README.md)
 
 ## How To Use This Section
 
