@@ -19,7 +19,7 @@ say so explicitly.
 
 - 01\. [Language Basics](01_language_basics/README.md)
 - 02\. [OOP Core Concepts](02_oop_core_concepts/README.md)
-- 03\. Collections and Data Structures
+- 03\. [Collections and Data Structures](03_collections_and_data_structures/README.md)
 - 04\. Exceptions and Debugging
 - 05\. Generics and Type System
 - 06\. Functional Java

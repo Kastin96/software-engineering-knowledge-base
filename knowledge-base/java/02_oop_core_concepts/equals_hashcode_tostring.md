@@ -196,4 +196,4 @@ System.out.println(first.equals(second)); // true
 
 - [Classes and Objects](classes_objects.md)
 - [Encapsulation](encapsulation.md)
-- Collections and Data Structures
+- [Collections and Data Structures](../03_collections_and_data_structures/README.md)
