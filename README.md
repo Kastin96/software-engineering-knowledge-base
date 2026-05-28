@@ -4,13 +4,17 @@ This repository is a personal software engineering knowledge base.
 
 Right now it mainly contains interview preparation notes for JavaScript,
 TypeScript, Node.js, Express.js, React, REST APIs, SQL, browser basics,
-debugging, testing, Git, and common full-stack assessment topics.
+debugging, testing, Git, and common full-stack assessment topics, plus growing
+Java knowledge-base materials.
 
-It also includes JavaScript knowledge-base sections with structured learning
-notes for language basics, core concepts, common data structures, and async
-JavaScript, plus browser JavaScript, Node.js JavaScript, error handling, and
-debugging basics, modern JavaScript features, patterns, best practices, and
-testing, with practical code examples, exercises, and cheatsheets.
+It also includes JavaScript and Java knowledge-base sections with structured
+learning notes. The JavaScript section covers language basics, core concepts,
+common data structures, async JavaScript, browser JavaScript, Node.js
+JavaScript, error handling, debugging basics, modern JavaScript features,
+patterns, best practices, testing, practical code examples, exercises, and
+cheatsheets. The Java section covers core Java fundamentals such as language
+basics and object-oriented programming, with more Java backend topics planned in
+separate sections.
 
 Over time, this repository may also include broader software engineering notes:
 language references, learning and review workflows, practical code examples,
@@ -25,6 +29,7 @@ software-engineering-knowledge-base/
     javascript-typescript/
   knowledge-base/
     javascript/
+    java/
 ```
 
 ## Interview Preparation
@@ -39,6 +44,7 @@ Agile, and full-stack assessment practice.
 ## Knowledge Base
 
 - [JavaScript Learning Path](knowledge-base/javascript/README.md)
+- [Java Learning Path](knowledge-base/java/README.md)
 
 The `knowledge-base/javascript` section is a structured guide for learning and
 reviewing JavaScript. It currently covers language basics, core concepts, data
@@ -57,3 +63,9 @@ immutability, pure functions, functional patterns, object-oriented patterns,
 common antipatterns, unit testing, mocking, test cases, Jest/Vitest-style
 workflows, data transformations, API clients, form validation, pagination,
 debounce, throttle, practice tasks, and quick reference sheets.
+
+The `knowledge-base/java` section is a structured guide for learning and
+reviewing core Java. It starts with language basics and object-oriented
+programming, then grows toward collections, exceptions, generics, functional
+Java, concurrency, JVM basics, build tools, testing, practical examples,
+exercises, and cheatsheets.
