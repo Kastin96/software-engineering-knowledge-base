@@ -26,8 +26,8 @@ say so explicitly.
 - 07\. [Concurrency](07_concurrency/README.md)
 - 08\. [I/O, Files, and Serialization](08_io_files_serialization/README.md)
 - 09\. [JVM and Build Tools](09_jvm_build_tools/README.md)
-- 10\. Testing
-- 11\. Patterns and Best Practices
+- 10\. [Testing](10_testing/README.md)
+- 11\. [Patterns and Best Practices](11_patterns_and_best_practices/README.md)
 - 12\. Practical Examples
 - 13\. Exercises
 - 14\. Cheatsheets
