@@ -25,7 +25,7 @@ say so explicitly.
 - 06\. [Functional Java](06_functional_java/README.md)
 - 07\. [Concurrency](07_concurrency/README.md)
 - 08\. [I/O, Files, and Serialization](08_io_files_serialization/README.md)
-- 09\. JVM and Build Tools
+- 09\. [JVM and Build Tools](09_jvm_build_tools/README.md)
 - 10\. Testing
 - 11\. Patterns and Best Practices
 - 12\. Practical Examples
