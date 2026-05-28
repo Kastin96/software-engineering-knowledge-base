@@ -23,7 +23,7 @@ say so explicitly.
 - 04\. [Exceptions and Debugging](04_exceptions_and_debugging/README.md)
 - 05\. [Generics and Type System](05_generics_and_type_system/README.md)
 - 06\. [Functional Java](06_functional_java/README.md)
-- 07\. Concurrency
+- 07\. [Concurrency](07_concurrency/README.md)
 - 08\. I/O, Files, and Serialization
 - 09\. JVM and Build Tools
 - 10\. Testing
