@@ -55,5 +55,5 @@ do not need that. A clean package structure is usually better.
 
 ## Key Idea
 
-Put the main application class above the packages that contain your Spring
-components.
+Place the main application class at the root of the application package. That
+keeps component discovery predictable and avoids manual scan configuration.

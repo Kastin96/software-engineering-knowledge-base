@@ -3,8 +3,8 @@
 The application context is the Spring container that holds beans and knows how
 to wire them together.
 
-You usually do not interact with it directly in everyday Spring Boot code. It
-works behind the scenes when the application starts.
+In Spring Boot applications, you usually do not access the context directly.
+It is created during application startup.
 
 ```java
 @SpringBootApplication
@@ -15,8 +15,8 @@ public class OrdersApplication {
 }
 ```
 
-`SpringApplication.run(...)` creates the application context, scans for beans,
-applies configuration, and starts the application.
+`SpringApplication.run(...)` creates the context, loads configuration, registers
+beans, resolves dependencies, and starts the configured application runtime.
 
 ## What The Context Does
 
@@ -26,7 +26,8 @@ The context:
 - injects dependencies;
 - reads configuration;
 - manages bean lifecycle;
-- applies framework features like validation, transactions, AOP, and web setup.
+- integrates features such as validation, transactions, AOP, web endpoints, and
+  persistence infrastructure.
 
 ## Real Example
 
@@ -61,16 +62,16 @@ Then it creates the objects in the right order.
 
 ## Common Mistake
 
-Avoid pulling dependencies manually from the context:
+Avoid using the context as a service locator in regular application code:
 
 ```java
 OrderService service = context.getBean(OrderService.class);
 ```
 
-That is rarely needed in application code. Prefer constructor injection. It
-makes dependencies visible and keeps code easier to test.
+That hides dependencies and makes code harder to reason about. Constructor
+injection keeps required collaborators visible at the class boundary.
 
 ## Key Idea
 
-The application context is the place where Spring keeps the object graph of your
-application.
+The application context owns the runtime object graph. Application classes
+should declare dependencies, not query the container for them.

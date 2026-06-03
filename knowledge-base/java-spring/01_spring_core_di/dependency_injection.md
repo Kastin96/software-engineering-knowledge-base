@@ -1,9 +1,9 @@
 # Dependency Injection
 
-Dependency injection means a class receives the objects it needs instead of
-creating them itself.
+Dependency injection means a class declares its collaborators instead of
+constructing them internally.
 
-Without dependency injection:
+Without dependency injection, the service controls its own dependency creation:
 
 ```java
 class OrderService {
@@ -11,10 +11,10 @@ class OrderService {
 }
 ```
 
-This looks simple, but it tightly couples `OrderService` to one exact
-repository implementation. It is harder to test and harder to replace.
+That couples `OrderService` to a concrete repository implementation and makes
+replacement in tests or alternate runtime configurations harder.
 
-With dependency injection:
+With dependency injection, the dependency becomes part of the service contract:
 
 ```java
 class OrderService {
@@ -26,12 +26,12 @@ class OrderService {
 }
 ```
 
-Now `OrderService` does not create the repository. It only declares that it
-needs one.
+The service still depends on `OrderRepository`, but it no longer owns the
+creation policy.
 
 ## Constructor Injection
 
-Constructor injection is usually the best default in Spring.
+Constructor injection is the preferred default for required dependencies.
 
 ```java
 @Service
@@ -44,14 +44,14 @@ class OrderService {
 }
 ```
 
-Why this is useful:
+Why it is useful:
 
 - required dependencies are obvious;
 - fields can be `final`;
-- the object cannot be created in an invalid state;
-- tests can pass a fake or mocked dependency directly.
+- invalid partial construction is avoided;
+- unit tests can instantiate the class without starting Spring.
 
-## Real Test Benefit
+## Testability
 
 ```java
 class OrderServiceTest {
@@ -65,12 +65,14 @@ class OrderServiceTest {
 }
 ```
 
-The test does not need the whole Spring application to check basic service
-logic.
+For service-level behavior, this is often enough. Use Spring integration tests
+when the wiring, configuration, persistence, or web layer is part of what you
+need to verify.
 
 ## Avoid Field Injection
 
-Field injection hides dependencies:
+Field injection hides required collaborators and makes the class harder to use
+outside the container:
 
 ```java
 @Service
@@ -80,11 +82,10 @@ class OrderService {
 }
 ```
 
-The class looks like it has a no-argument constructor, but it cannot actually
-work without Spring filling the field. This makes tests and object creation less
-clear.
+It also prevents `final` dependencies and makes tests more dependent on Spring
+or reflection-based setup.
 
 ## Key Idea
 
-Dependency injection keeps classes focused on what they do, not on how their
-dependencies are created.
+Dependency injection separates object behavior from object assembly. Spring owns
+assembly; the class owns behavior.

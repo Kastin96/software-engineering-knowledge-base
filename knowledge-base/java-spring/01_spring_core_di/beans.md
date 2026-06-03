@@ -1,13 +1,14 @@
 # Beans
 
-A bean is an object managed by Spring.
+A bean is an object managed by the Spring application context.
 
-When Spring starts, it creates an application context. The context contains the
-objects Spring knows how to create and wire. Those objects are beans.
+For a bean, Spring is responsible for creation, dependency resolution, lifecycle
+callbacks, and framework integration.
 
 ## Component Bean
 
-The most common way to create a bean is to annotate a class:
+For application classes, a bean is commonly registered through a stereotype
+annotation:
 
 ```java
 @Service
@@ -18,13 +19,13 @@ class PaymentService {
 }
 ```
 
-Spring sees the class during component scan, creates an instance, and can inject
-it into other beans.
+During component scanning, Spring detects the class, creates the bean, and makes
+it available for injection.
 
 ## Configuration Bean
 
-Use `@Bean` when the object is created by a factory method or comes from a class
-you do not control.
+Use `@Bean` when construction needs to be explicit or the type comes from a
+library.
 
 ```java
 @Configuration
@@ -36,8 +37,8 @@ class HttpClientConfig {
 }
 ```
 
-This is useful for clients, mappers, SDK objects, and configuration-heavy
-objects.
+This is common for HTTP clients, mappers, SDK clients, clocks, executors, and
+other infrastructure objects.
 
 ## Stereotype Annotations
 
@@ -52,17 +53,18 @@ They all register beans, but the names communicate intent.
 
 ## Common Mistake
 
-Do not make every class a Spring bean. Simple value objects, DTOs, records,
-entities, and small helper objects often do not need Spring management.
+Do not make every class a bean. DTOs, request/response records, entities, value
+objects, and simple domain objects usually should not be container-managed.
 
 ```java
 record CreateUserRequest(String email, String name) {
 }
 ```
 
-This is just data. It should not be a bean.
+This is data carried through the application boundary, not a framework-managed
+component.
 
 ## Key Idea
 
-A bean is not just "a class with an annotation". It is an object Spring owns,
-creates, configures, and injects where needed.
+A bean is an object whose creation and lifecycle are owned by Spring. Use that
+ownership for components and infrastructure, not for every object in the codebase.

@@ -1,7 +1,7 @@
 # Configuration
 
-Configuration tells Spring how to create objects or read settings that may
-change between environments.
+Configuration defines how Spring creates infrastructure objects and how the
+application reads environment-specific settings.
 
 There are two common meanings:
 
@@ -12,7 +12,7 @@ This topic focuses on Java configuration.
 
 ## Java Configuration
 
-Use `@Configuration` when you want to define beans manually.
+Use `@Configuration` when bean creation should be explicit.
 
 ```java
 @Configuration
@@ -24,8 +24,8 @@ class NotificationConfig {
 }
 ```
 
-This is useful when the class is not yours, needs setup, or should not be
-annotated directly.
+This is useful when the type is external, construction needs parameters, or the
+object should be selected based on configuration.
 
 ## When `@Bean` Is Better Than `@Component`
 
@@ -57,5 +57,5 @@ service, not in a config file.
 
 ## Key Idea
 
-Configuration is where you describe how infrastructure objects are created.
-Business behavior should stay in services.
+Configuration describes application wiring and infrastructure setup. Business
+behavior should stay in application services or domain code.

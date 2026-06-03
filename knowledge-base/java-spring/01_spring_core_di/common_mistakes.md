@@ -1,6 +1,7 @@
 # Common Mistakes
 
-These mistakes appear often in early Spring projects.
+These issues appear often in Spring services, especially when framework wiring
+starts to hide design problems.
 
 ## Hiding Dependencies With Field Injection
 
@@ -17,8 +18,8 @@ tests simpler.
 
 ## Putting Business Logic In Controllers
 
-Controllers should handle HTTP input and output. Business rules usually belong
-in services.
+Controllers should translate HTTP input and output. Business rules usually
+belong in application services.
 
 ```java
 @RestController
@@ -58,5 +59,5 @@ Component scan starts there by default and scans subpackages.
 
 ## Key Idea
 
-Spring should make object wiring cleaner. It should not hide unclear design,
-oversized services, or accidental coupling.
+Spring should make application wiring explicit and maintainable. It should not
+hide unclear ownership, oversized services, or accidental coupling.

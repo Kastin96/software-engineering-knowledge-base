@@ -31,13 +31,13 @@ class CurrentUserService {
 }
 ```
 
-A singleton service is shared. In a web application, many requests can use it at
-the same time. Request-specific data should usually come from method arguments,
-security context, request objects, or scoped infrastructure.
+A singleton service is shared across requests. Request-specific data should
+usually come from method arguments, request objects, the security context, or
+properly scoped infrastructure.
 
 ## Lifecycle Hooks
 
-Sometimes a bean needs setup after creation:
+Occasionally a bean needs setup after dependency injection:
 
 ```java
 @Component
@@ -54,5 +54,5 @@ make failures harder to diagnose.
 
 ## Key Idea
 
-Spring beans are usually shared objects. Keep them stateless when possible, and
-do not store per-request data in fields.
+Spring beans are usually shared components. Keep service beans stateless when
+possible, and keep lifecycle hooks focused on lightweight initialization.

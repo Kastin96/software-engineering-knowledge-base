@@ -1,9 +1,9 @@
 # What Is Spring
 
-Spring is a framework for building Java applications where many parts need to
-work together.
+Spring is an application framework centered around inversion of control,
+dependency injection, and infrastructure integration.
 
-In a small Java program, you can create objects manually:
+In a plain Java application, object wiring is explicit:
 
 ```java
 UserRepository repository = new UserRepository();
@@ -11,24 +11,25 @@ UserService service = new UserService(repository);
 UserController controller = new UserController(service);
 ```
 
-That is fine for a tiny app. In a real backend service, there may be dozens of
-services, repositories, clients, validators, schedulers, and configuration
-objects. Wiring them manually becomes noisy, and changing one dependency can
-touch many places.
+That approach is valid, but in a backend service the object graph quickly grows:
+controllers, services, repositories, HTTP clients, validators, schedulers,
+transaction managers, metrics, and configuration objects. Spring centralizes
+that wiring in the application context.
 
-Spring solves this by creating and connecting application objects for you.
-Those managed objects are called beans.
+Spring-managed objects are called beans. The framework creates them, resolves
+their dependencies, applies configuration, and integrates them with surrounding
+infrastructure.
 
-## Real Backend Example
+## Backend Layering Example
 
-A REST endpoint might need this chain:
+A common service path looks like this:
 
 ```text
 UserController -> UserService -> UserRepository
 ```
 
-The controller should not know how to create the service. The service should not
-know how to create the repository. Each class should focus on its own job.
+The controller handles HTTP concerns. The service owns application behavior. The
+repository owns persistence access.
 
 ```java
 @RestController
@@ -41,16 +42,17 @@ class UserController {
 }
 ```
 
-The controller asks for `UserService`. Spring provides it.
+The controller declares a dependency on `UserService`. Spring resolves it from
+the application context.
 
-## What Spring Is Not
+## Framework Boundary
 
-Spring is not only annotations. The annotations are just a way to tell Spring
-which classes it should manage and how they should be connected.
+Spring annotations are not the architecture itself. They are metadata that tell
+the framework how classes participate in the application.
 
-Spring is also not a replacement for clean code. If a service has too much
-logic, too many dependencies, or unclear names, Spring will still run it, but the
-code will be hard to maintain.
+Spring will happily wire an oversized service with unclear responsibilities.
+That does not make the design good. Keep business rules, persistence concerns,
+HTTP mapping, and infrastructure configuration separated.
 
 ## Common Use In Backend Work
 
@@ -67,5 +69,5 @@ Spring is commonly used to:
 
 ## Key Idea
 
-Spring helps with object creation, wiring, configuration, and infrastructure so
-your code can focus on business behavior.
+Spring manages object creation, dependency wiring, configuration, and common
+infrastructure so application code can stay focused on behavior and boundaries.
