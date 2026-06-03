@@ -28,6 +28,7 @@ which decisions matter when building maintainable services.
 - 11\. [NoSQL with Spring Data MongoDB](11_nosql_spring_data_mongodb/README.md)
 - 12\. [WebFlux Basics](12_webflux_basics/README.md)
 - 13\. [AOP](13_aop/README.md)
+- 14\. [Security](14_security/README.md)
 
 ## Planned Topics
 
