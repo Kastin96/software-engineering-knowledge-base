@@ -16,6 +16,7 @@ which decisions matter when building maintainable services.
 ## Recommended Order
 
 - 01\. [Spring Core and Dependency Injection](01_spring_core_di/README.md)
+- 02\. [Spring Boot Basics](02_spring_boot_basics/README.md)
 
 ## Planned Topics
 
