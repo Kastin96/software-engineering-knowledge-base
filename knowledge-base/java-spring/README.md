@@ -23,6 +23,8 @@ which decisions matter when building maintainable services.
 - 06\. [Error Handling](06_error_handling/README.md)
 - 07\. [Data Access Overview](07_data_access_overview/README.md)
 - 08\. [SQL with JDBC and JdbcTemplate](08_sql_with_jdbc_jdbctemplate/README.md)
+- 09\. [JPA, Hibernate, and Spring Data JPA](09_jpa_hibernate_spring_data_jpa/README.md)
+- 10\. [Transactions and Migrations](10_transactions_and_migrations/README.md)
 
 ## Planned Topics
 
