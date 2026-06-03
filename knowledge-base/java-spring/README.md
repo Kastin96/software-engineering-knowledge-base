@@ -33,6 +33,8 @@ which decisions matter when building maintainable services.
 - 16\. [Testing Spring Applications](16_testing_spring_apps/README.md)
 - 17\. [Logging, Observability, and Actuator](17_logging_observability_actuator/README.md)
 - 18\. [Messaging and Kafka](18_messaging_kafka/README.md)
+- 19\. [Performance and Production Support](19_performance_production_support/README.md)
+- 20\. [Architecture and Design](20_architecture_and_design/README.md)
 
 ## Planned Topics
 
