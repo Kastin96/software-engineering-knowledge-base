@@ -29,6 +29,7 @@ which decisions matter when building maintainable services.
 - 12\. [WebFlux Basics](12_webflux_basics/README.md)
 - 13\. [AOP](13_aop/README.md)
 - 14\. [Security](14_security/README.md)
+- 15\. [WebFlux Security](15_security_webflux/README.md)
 
 ## Planned Topics
 
