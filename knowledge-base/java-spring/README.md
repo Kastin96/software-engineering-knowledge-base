@@ -31,6 +31,7 @@ which decisions matter when building maintainable services.
 - 14\. [Security](14_security/README.md)
 - 15\. [WebFlux Security](15_security_webflux/README.md)
 - 16\. [Testing Spring Applications](16_testing_spring_apps/README.md)
+- 17\. [Logging, Observability, and Actuator](17_logging_observability_actuator/README.md)
 
 ## Planned Topics
 
