@@ -7,9 +7,10 @@ It currently contains two main types of material:
 - structured knowledge-base learning paths;
 - interview preparation notes and assessment-style practice.
 
-The current focus is JavaScript, TypeScript, and core Java. The materials are
-written as practical Markdown notes with explanations, code examples, common
-mistakes, practice tasks, interview-style questions, exercises, and cheatsheets.
+The current focus is JavaScript, TypeScript, core Java, and Java Spring. The
+materials are written as practical Markdown notes with explanations, code
+examples, common mistakes, practice tasks, interview-style questions, exercises,
+and cheatsheets.
 
 ## Current Structure
 
@@ -20,12 +21,14 @@ software-engineering-knowledge-base/
     javascript-typescript/
   knowledge-base/
     java/
+    java-spring/
     javascript/
 ```
 
 ## Knowledge Base
 
 - [Java Learning Path](knowledge-base/java/README.md)
+- [Java Spring Learning Path](knowledge-base/java-spring/README.md)
 - [JavaScript Learning Path](knowledge-base/javascript/README.md)
 
 The `knowledge-base/java` section is a structured Java Core learning path. It
@@ -33,6 +36,12 @@ covers language basics, OOP, collections and data structures, exceptions and
 debugging, generics, functional Java, concurrency, I/O and serialization, JVM and
 build tools, testing, patterns and best practices, practical examples,
 exercises, and cheatsheets.
+
+The `knowledge-base/java-spring` section is a practical Spring backend learning
+path. It starts with Spring Core and dependency injection, then is intended to
+grow into Spring Boot, REST APIs, validation, error handling, data access,
+security, logging, actuator, testing, production support, and reactive Spring
+topics.
 
 The `knowledge-base/javascript` section is a structured JavaScript learning
 path. It covers language basics, core concepts, data structures, async
@@ -52,6 +61,5 @@ Agile, and full-stack assessment practice.
 ## Repository Direction
 
 The repository is intended to grow into a broader software engineering reference.
-Likely future areas include Java Spring, reactive Java, databases, backend
-engineering, system design, DevOps, and project-based practice.
-
+Likely future areas include reactive Java, databases, backend engineering,
+system design, DevOps, and project-based practice.
