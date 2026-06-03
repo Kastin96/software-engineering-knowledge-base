@@ -30,6 +30,7 @@ which decisions matter when building maintainable services.
 - 13\. [AOP](13_aop/README.md)
 - 14\. [Security](14_security/README.md)
 - 15\. [WebFlux Security](15_security_webflux/README.md)
+- 16\. [Testing Spring Applications](16_testing_spring_apps/README.md)
 
 ## Planned Topics
 
