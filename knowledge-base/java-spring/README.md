@@ -20,6 +20,9 @@ which decisions matter when building maintainable services.
 - 03\. [Configuration, Profiles, and Properties](03_configuration_profiles_properties/README.md)
 - 04\. [Spring Web MVC and REST](04_spring_web_mvc_rest/README.md)
 - 05\. [Validation](05_validation/README.md)
+- 06\. [Error Handling](06_error_handling/README.md)
+- 07\. [Data Access Overview](07_data_access_overview/README.md)
+- 08\. [SQL with JDBC and JdbcTemplate](08_sql_with_jdbc_jdbctemplate/README.md)
 
 ## Planned Topics
 
