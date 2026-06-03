@@ -17,6 +17,9 @@ which decisions matter when building maintainable services.
 
 - 01\. [Spring Core and Dependency Injection](01_spring_core_di/README.md)
 - 02\. [Spring Boot Basics](02_spring_boot_basics/README.md)
+- 03\. [Configuration, Profiles, and Properties](03_configuration_profiles_properties/README.md)
+- 04\. [Spring Web MVC and REST](04_spring_web_mvc_rest/README.md)
+- 05\. [Validation](05_validation/README.md)
 
 ## Planned Topics
 
