@@ -35,6 +35,9 @@ which decisions matter when building maintainable services.
 - 18\. [Messaging and Kafka](18_messaging_kafka/README.md)
 - 19\. [Performance and Production Support](19_performance_production_support/README.md)
 - 20\. [Architecture and Design](20_architecture_and_design/README.md)
+- 21\. [Practical Examples](21_practical_examples/README.md)
+- 22\. [Exercises](22_exercises/README.md)
+- 23\. [Cheatsheets](23_cheatsheets/README.md)
 
 ## Planned Topics
 
