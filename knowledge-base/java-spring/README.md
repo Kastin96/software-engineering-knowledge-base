@@ -6,8 +6,8 @@ developers.
 It assumes basic Java knowledge and a general understanding of what frameworks
 do. The focus is on concepts and patterns that appear in production services:
 dependency injection, configuration, REST APIs, validation, error handling, data
-access, security, logging, actuator, testing, production support, and later
-reactive Spring.
+access, transactions, WebFlux basics, AOP, security, logging, actuator,
+messaging, testing, production support, and architecture.
 
 The goal is not to list every Spring annotation. The goal is to understand how
 Spring applications are structured, where framework boundaries are useful, and
@@ -39,24 +39,6 @@ which decisions matter when building maintainable services.
 - 22\. [Exercises](22_exercises/README.md)
 - 23\. [Cheatsheets](23_cheatsheets/README.md)
 
-## Planned Topics
-
-- Spring Core, dependency injection, beans, application context
-- Spring Boot basics, starters, auto-configuration, profiles
-- REST APIs with Spring MVC
-- validation and API error handling
-- SQL access with JDBC, JdbcTemplate, JPA, Hibernate, Spring Data JPA
-- NoSQL access with Spring Data MongoDB
-- transactions and database migrations
-- WebFlux basics
-- AOP
-- Spring Security basics
-- testing Spring applications
-- logging, actuator, metrics, health checks
-- Kafka and messaging basics
-- performance and production support
-- architecture and practical examples
-
 ## How To Use This Section
 
 Read the topics in order if you are building Spring fundamentals. If you already
@@ -65,7 +47,8 @@ areas.
 
 Examples should be small, realistic, and tied to a concrete backend concern:
 wiring application layers, configuring infrastructure, handling HTTP requests,
-testing behavior, or diagnosing production issues.
+accessing data, securing endpoints, testing behavior, or diagnosing production
+issues.
 
 ## What This Section Should Prepare You For
 
@@ -76,5 +59,10 @@ After finishing this section, you should be able to:
 - use dependency injection with clear boundaries;
 - validate requests and return clear API errors;
 - connect a service to SQL and MongoDB data sources;
-- add logging, health checks, and useful tests;
+- manage transactions, migrations, and persistence boundaries;
+- use WebFlux basics intentionally without mixing blocking and reactive models
+  accidentally;
+- apply AOP, security, logging, health checks, and useful tests;
+- reason about Kafka, performance, production support, and service
+  architecture;
 - discuss common Spring topics in interview-friendly language.
