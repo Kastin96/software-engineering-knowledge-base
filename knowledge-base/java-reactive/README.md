@@ -15,6 +15,7 @@ each one where it fits the workload and infrastructure.
 ## Recommended Order
 
 - 01\. [Concurrency versus Async versus Reactive](01_concurrency_vs_async_vs_reactive/README.md)
+- 02\. [Threads and Runnable](02_threads_and_runnable/README.md)
 
 ## Planned Topics
 
